@@ -203,7 +203,7 @@ with tab1:
         no_wa=no_wa
     )
 
-    st.image(poster_img, caption="Preview Gambar Poster", use_column_width=True)
+    st.image(poster_img, caption="Preview Gambar Poster", use_container_width=True)
 
     buf = io.BytesIO()
     poster_img.save(buf, format="JPEG", quality=95)
