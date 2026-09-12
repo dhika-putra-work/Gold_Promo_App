@@ -218,7 +218,7 @@ with tab1:
 with tab2:
     st.subheader("Format Teks untuk Broadcast WhatsApp")
 
-    wa_clean = clean_phone_number(081286435267)
+    wa_clean = clean_phone_number("081286435267")
     wa_direct_link = f"https://wa.me/{wa_clean}"
 
     wa_text = f"✨ *HARGA EMAS {brand_emas.upper()} HARI INI* ✨\n"
